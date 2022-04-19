@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+$black: #010101;
+$red: #D40000;
+$red_hover_btn: #EA0E00;
+$white: #ffffff;
+
+$font: 'Inter', sans-serif;
+
+$r_mimob: 320px;
+$r_mob_360: 360px;
+$r_mob_400: 400px;
+$r_mob_500: 500px;
+$r_tab: 768px;
+$r_tab_900: 900px;
+$r_desk: 1000px;
+$r_desk_1120: 1120px;
+$r_desk_hd: 1200px;
+$r_desk_1280: 1280px;
+$r_desk_1350: 1350px;
+$r_desk_full_1750: 1750px;
+
+html {
+    font-size: 10px;
+}
+ 
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    // Для слайдеров
+    > * {
+        min-width: 0;
+    }
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: $font;
+    color: $black;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    z-index: 0;
+}
+
+
