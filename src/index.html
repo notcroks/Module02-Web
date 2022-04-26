@@ -44,7 +44,7 @@
                         web-разработчик
                     </h1>
                     <div class="main__info-up">
-                        <a href="#background" class="btn btn__project">Обсудить проект &rarr;</a>
+                        <a href="#background" class="btn btn__project" onclick="openPopup()">Обсудить проект &rarr;</a>
                         <div class="main__contact">
                             <ul class="main__social">
                                 <li class="main__social-item">
@@ -64,20 +64,20 @@
                     </div>
                     <div class="main__info-down">
                         <div class="main__info-down1">
-                            <p class="description description__size-l">FRONT-END</p>
-                            <p class="description description__size-s">HTML+CSS+JS кодирование дизайнов любой сложности</p>
+                            <p class="description description__size-l main__info-description">FRONT-END</p>
+                            <p class="description description__size-s main__info-description-size-s">HTML+CSS+JS кодирование дизайнов любой сложности</p>
                         </div>
-                        <div class="main__info-down1">
-                            <p class="description description__size-l">Back-end</p>
-                            <p class="description description__size-s">Разработка сложной back-end логики для готового front-end</p>
+                        <div class="main__info-down2">
+                            <p class="description description__size-l main__info-description">Back-end</p>
+                            <p class="description description__size-s main__info-description-size-s">Разработка сложной back-end логики для готового front-end</p>
                         </div>
-                        <div class="main__info-down1">
-                            <p class="description description__size-l">WORDPRESS</p>
-                            <p class="description description__size-s">Разработка сайтов - от блога до интернет магазина</p>
+                        <div class="main__info-down3">
+                            <p class="description description__size-l main__info-description">WORDPRESS</p>
+                            <p class="description description__size-s main__info-description-size-s">Разработка сайтов - от блога до интернет магазина</p>
                         </div>
-                        <div class="main__info-down1">
-                            <p class="description description__size-l">SEO продвижение</p>
-                            <p class="description description__size-s">Качественное улучшение позиций сайта в поисковой выдаче</p>
+                        <div class="main__info-down4">
+                            <p class="description description__size-l main__info-description">SEO продвижение</p>
+                            <p class="description description__size-s main__info-description-size-s">Качественное улучшение позиций сайта в поисковой выдаче</p>
                         </div>
                     </div>
                 </div>
@@ -92,8 +92,10 @@
                         </h2>
                     </div>
                     <div class="info__grid-item info__grid-item2">
-                        <p class="description description__size-xl">Создаю только эффективные решения, которые работают на результат: от одностраничных сайтов, до крупных интернет-порталов.</p>
+                        <p class="description description__size-xl info__grid-description-xl">Создаю только эффективные решения, которые работают на результат: от одностраничных сайтов, до крупных интернет-порталов.</p>
                     </div>
+                </div>
+                <div class="info__grid2">  
                     <div class="info__grid-item info__grid-item3">
                         
                     </div>
@@ -147,7 +149,7 @@
                         <p class="description description__size-l development__text-description-l">Верстаю сайт по вашему проекту пиксель в пиксель</p>
                     </div>
                 </div>
-                <h1 class="title title__block">Портфолио</h1>
+                <h1 class="title title__block development__title">Портфолио</h1>
                 <img class="figure__circle3" src="images/circle.svg" alt="">
             </div>
         </section>
@@ -155,7 +157,7 @@
             <div class="container">
                 <div class="portfolio__box">
                     <div class="portfolio__text">
-                        <h2 class="title">
+                        <h2 class="title portfolio__title">
                             Freefit
                         </h2>
                         <ul class="portfolio__list">
@@ -177,11 +179,11 @@
                             Затрачено времени: 5 рабочих дней
                         </p>
                     </div>
-                    <a href="" target="_blank" class="portfolio__website"></a> <!-- ссылка на сайт -->
+                    <a href="https://notcroks.github.io/Module01-Gym/index.html#" target="_blank" class="portfolio__website1"></a> <!-- ссылка на сайт -->
                 </div>
                 <div class="portfolio__box">
                     <div class="portfolio__text">
-                        <h2 class="title">
+                        <h2 class="title portfolio__title">
                             Healthly food
                         </h2>
                         <ul class="portfolio__list">
@@ -203,7 +205,7 @@
                             Затрачено времени: 7 рабочих дней
                         </p>
                     </div>
-                    <a href="" target="_blank" class="portfolio__website"></a> <!-- ссылка на сайт -->
+                    <a href="" target="_blank" class="portfolio__website2"></a> <!-- ссылка на сайт -->
                 </div>
                 <div class="portfolio__additionally">
                     <p class="description description__size-xl portfolio__description-xl">
@@ -214,7 +216,7 @@
                     <div class="portfolio__info-item">
                         <img src="images/money.svg" alt="" class="portfolio__info-image">
                         <div class="portfolio__info-text">
-                            <p class="description description__size-l portfolio__description-l">
+                            <p class="description description__size-l portfolio__description-l1">
                                 Актуальные цены
                             </p>
                             <p class="description description_size-s portfolio__description-s">
@@ -225,7 +227,7 @@
                     <div class="portfolio__info-item">
                         <img src="images/image-plus.svg" alt="" class="portfolio__info-image">
                         <div class="portfolio__info-text">
-                            <p class="description description__size-l portfolio__description-l">
+                            <p class="description description__size-l portfolio__description-l1">
                                 Более 2-х лет опыта
                             </p>
                             <p class="description description_size-s portfolio__description-s">
@@ -236,7 +238,7 @@
                     <div class="portfolio__info-item">
                         <img src="images/clock-history.svg" alt="" class="portfolio__info-image">
                         <div class="portfolio__info-text">
-                            <p class="description description__size-l portfolio__description-l">
+                            <p class="description description__size-l portfolio__description-l1">
                                 Оптимальные сроки
                             </p>
                             <p class="description description_size-s portfolio__description-s">
@@ -247,7 +249,7 @@
                     <div class="portfolio__info-item">
                         <img src="images/file.svg" alt="" class="portfolio__info-image">
                         <div class="portfolio__info-text">
-                            <p class="description description__size-l portfolio__description-l">
+                            <p class="description description__size-l portfolio__description-l1">
                                 Всегда на связи
                             </p>
                             <p class="description description_size-s portfolio__description-s">
@@ -258,7 +260,7 @@
                     <div class="portfolio__info-item">
                         <img src="images/code-json.svg" alt="" class="portfolio__info-image">
                         <div class="portfolio__info-text">
-                            <p class="description description__size-l portfolio__description-l">
+                            <p class="description description__size-l portfolio__description-l1">
                                 Чистый код
                             </p>
                             <p class="description description_size-s portfolio__description-s">
@@ -269,7 +271,7 @@
                     <div class="portfolio__info-item">
                         <img src="images/telephone-2.svg" alt="" class="portfolio__info-image">
                         <div class="portfolio__info-text">
-                            <p class="description description__size-l portfolio__description-l">
+                            <p class="description description__size-l portfolio__description-l1">
                                 Поддержка сайта
                             </p>
                             <p class="description description_size-s portfolio__description-s">
@@ -373,10 +375,10 @@
         <section class="price">
             <div class="container">
                 <div class="price__head">
-                    <h2 class="title">
+                    <h2 class="title price__head-title">
                         Тарифы
                     </h2>
-                    <p class="description description__size-xl price__description-xl">
+                    <p class="description description__size-xl price__head-description-xl">
                         Представленные ниже цены зависят не только от того какой сайт вы хотите. Конечная цена будет озвучена после прочтения Вашего ТЗ
                     </p>
                     <img class="figure__circle4" src="images/circle.svg" alt="">
@@ -384,8 +386,8 @@
                 <div class="price__services">
                     <div class="price__website">
                         <div class="price__services-title">
-                            <h3 class="title">
-                                Разработка лэндинга или сайт визитки
+                            <h3 class="title price__services_title">
+                                Разработка <br> лэндинга или сайт визитки
                             </h3>
                             <p class="description description__size-m price__description-m">
                                 Небольшой сайт состоящий из одной страницы
@@ -397,17 +399,17 @@
                             </p>
                             <ul class="price__services-list">
                                 <li class="price__services-item">
-                                    Сайт на CMS WordPress
+                                    &bull; Сайт на CMS WordPress
                                 </li>
                             </ul>
                             <ul class="price__services-list">
                                 <li class="price__services-item">
-                                    Одна посадочная страница
+                                    &bull; Одна посадочная страница
                                 </li>
                             </ul>
                             <ul class="price__services-list">
                                 <li class="price__services-item">
-                                    От 7 дней
+                                    &bull; От 7 дней
                                 </li>
                             </ul>
                         </div>
@@ -423,7 +425,7 @@
                     </div>
                     <div class="price__website">
                         <div class="price__services-title">
-                            <h3 class="title">
+                            <h3 class="title price__services_title">
                                 Разработка корпоративного сайта
                             </h3>
                             <p class="description description__size-m price__description-m">
@@ -436,17 +438,17 @@
                             </p>
                             <ul class="price__services-list">
                                 <li class="price__services-item">
-                                    Сайт на CMS WordPress
+                                    &bull; Сайт на CMS WordPress
                                 </li>
                             </ul>
                             <ul class="price__services-list">
                                 <li class="price__services-item">
-                                    От 2-10 страниц 
+                                    &bull; От 2-10 страниц 
                                 </li>
                             </ul>
                             <ul class="price__services-list">
                                 <li class="price__services-item">
-                                    От 15 дней
+                                    &bull; От 15 дней
                                 </li>
                             </ul>
                         </div>
@@ -461,8 +463,8 @@
                     </div>
                     <div class="price__website">
                         <div class="price__services-title">
-                            <h3 class="title">
-                                Разработка интернет - магазина
+                            <h3 class="title price__services_title">
+                                Разработка <br> интернет - магазина
                             </h3>
                             <p class="description description__size-m price__description-m">
                                 Полноценный каталог вашей продукции
@@ -474,17 +476,17 @@
                             </p>
                             <ul class="price__services-list">
                                 <li class="price__services-item">
-                                    Сайт на CMS WordPress
+                                    &bull; Сайт на CMS WordPress
                                 </li>
                             </ul>
                             <ul class="price__services-list">
                                 <li class="price__services-item">
-                                    От 2-10 страниц, корзина, карточка товара
+                                    &bull; От 2-10 страниц, корзина, карточка товара
                                 </li>
                             </ul>
                             <ul class="price__services-list">
                                 <li class="price__services-item">
-                                    От 20 дней
+                                    &bull; От 20 дней
                                 </li>
                             </ul>
                         </div>
@@ -504,10 +506,10 @@
         <section class="feedback">
             <div class="container">
                 <div class="feedback__head">
-                    <h2 class="title">
-                        Расскажите о своем проекте
+                    <h2 class="title feedback__head-title">
+                        Расскажите <br> о своем проекте
                     </h2>
-                    <p class="description description__size-xl feedback__description-xl">
+                    <p class="description description__size-xl feedback__head-description-xl">
                         Воспользуйтесь формой обратной связи, чтобы обсудить ваш проект, заполните все поля, и я свяжусь с вами в ближайшее время
                     </p>
                     <img class="figure__circle7" src="images/circle.svg" alt="">
@@ -527,29 +529,38 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="feedback__form-global">
-                        <form action="#" class="form__computer">
-                            <label class="form-label">Телефон или почта</label>
-                            <input type="text" placeholder="Введите телефон или e-mail" class="form-email" required> <!-- Правильный type-->
-                            <label class="form-label">Выберите удобный способ связи</label>
-                            <label class="drop__computer">
-                                <input class="drop-input" type="checkbox" id="target-drop-example"> <!-- Toggle Drop -->
-                                <span class="control drop-control">Telegram</span> <!-- Fake button -->
-                                    <!-- Items -->
-                                <ul class="drop-items">
-                                    <li class="item-drop">WhatsApp</li>
-                                    <li class="item-drop">Viber</li>
-                                    <li class="item-drop">Звонок на телефон</li>
-                                    <li class="item-drop">SMS сообщение</li>
-                                </ul>
-                                    <!-- Alternative to close dropdown with click out -->
-                                <label for="target-drop-example" class="overlay-close"></label>
-                            </label>   
-                            <button type="submit" class="form-btn">
-                                Отправить
-                            </button>
-                        </form>
-                    </div>
+                    <form action="#" class="form__computer">
+                        <label class="form-label">Телефон или почта</label>
+                        <input type="text" placeholder="Введите телефон или e-mail" class="form-email" required> <!-- Правильный type-->
+                        <label class="form-label">Выберите удобный способ связи</label>
+                        <label class="drop__computer">
+                            <input class="drop-input" type="checkbox" id="target-drop-example"> <!-- Toggle Drop -->
+                            <span class="control drop-control">
+                                <div class="control-1">                                    <p class="control-1-text">Telegram</p>
+                                </div>            
+                            </span><!-- Fake button -->
+                                <!-- Items -->
+                            <ul class="drop-items">
+                                <li class="item-drop">
+                                    <a target="_blank" href="">WhatsApp</a>
+                                </li>
+                                <li class="item-drop">
+                                    <a target="_blank" href="">Viber</a>
+                                </li>
+                                <li class="item-drop">
+                                    <a target="_blank" href="">Звонок на телефон</a>
+                                </li>
+                                <li class="item-drop">
+                                    <a target="_blank" href="">SMS сообщение</a>
+                                </li>
+                            </ul>
+                                <!-- Alternative to close dropdown with click out -->
+                            <label for="target-drop-example" class="overlay-close"></label>
+                        </label>   
+                        <button type="submit" class="form-btn">
+                            Отправить
+                        </button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -575,7 +586,7 @@
                     </ul>
                     <div class="footer__info">
                         <a href="tel:89258754863" class="footer__tel">8 925 875-48-63</a>
-                        <a href="mailto:mikhail.sukharev.m@gmail.com" class="footer__email">e-mail: mikhail.sukharev.m@gmail.com</a>
+                        <a href="mailto:mikhail.sukharev.m@gmail.com" class="footer__email">mikhail.sukharev.m@gmail.com</a>
                     </div>
                 </div>
                 <div class="footer__law">
@@ -593,49 +604,100 @@
         </footer>
     </div>
 
-
-
-
-
-
-
-
-
     <!-- Pop up начало onclick="closePopup()"-->
     <div id="background" class="background">
         <div id="popup" class="popup">
-            <a href="#" class="popup-close"></a>
-            <div class="popup-form">
-                <p class="popup-title">
-                    Расскажите о своем проекте"
-                </p>
-                <p class="popup-text">
-                    Заполните все поля, и я свяжусь с вами в ближайшее время
-                </p>
-                <form action="#" class="popup-form">
-                     <label class="popup-label">Телефон или почта</label>
-                    <input type="text" placeholder="Введите телефон или e-mail" class="popup-email" required> <!-- Правильный type-->
-                    <label class="popup-label">Выберите удобный способ связи</label>
-                    <label class="popup-drop">
-                        <input class="popup-inputdrop" type="checkbox" id="target-drop-example"> <!-- Toggle Drop -->
-                        <span class="control popup-control">Telegram</span> <!-- Fake button -->
-                            <!-- Items -->
-                        <ul class="drop-items popup-items">
-                            <li class="item-drop popup-item">WhatsApp</li>
-                            <li class="item-drop popup-item">Viber</li>
-                            <li class="item-drop popup-item">Звонок на телефон</li>
-                            <li class="item-drop popup-item">SMS сообщение</li>
-                        </ul>
-                            <!-- Alternative to close dropdown with click out -->
-                        <label for="target-drop-example" class="overlay-close"></label>
-                    </label>   
-                    <button type="submit" class="popup-btn">
-                        Отправить
-                    </button>
-                </form>
+            <div class="container">
+                <a href="#" onclick="closePopup()" class="popup-close"></a>
+                <div class="popup-form">
+                    <div class="popup-head">
+                        <p class="popup-title">
+                            Расскажите о своем проекте
+                        </p>
+                        <p class="popup-text">
+                            Заполните все поля, и я свяжусь с вами в ближайшее время
+                        </p>
+                    </div>
+                    <div class="popup-form-wrapper">
+                        <form action="#" class="form__computer">
+                            <label class="form-label">Телефон или почта</label>
+                            <input type="text" placeholder="Введите телефон или e-mail" class="form-email" required> <!-- Правильный type-->
+                            <label class="form-label">Выберите удобный способ связи</label>
+                            <label class="drop__computer">
+                                <input class="drop-input" type="checkbox" id="target-drop-example"> <!-- Toggle Drop -->
+                                <span class="control drop-control">
+                                    <div class="control-1">
+                                    <p class="control-1-text">Telegram</p>
+                                    </div>
+                                    
+                                </span><!-- Fake button -->
+                                    <!-- Items -->
+                                <ul class="drop-items">
+                                    <li class="item-drop">
+                                        <a target="_blank" href="">WhatsApp</a>
+                                    </li>
+                                    <li class="item-drop">
+                                        <a target="_blank" href="">Viber</a>
+                                    </li>
+                                    <li class="item-drop">
+                                        <a target="_blank" href="">Звонок на телефон</a>
+                                    </li>
+                                    <li class="item-drop">
+                                        <a target="_blank" href="">SMS сообщение</a>
+                                    </li>
+                                </ul>
+                                    <!-- Alternative to close dropdown with click out -->
+                                <label for="target-drop-example" class="overlay-close"></label>
+                            </label>   
+                            <button type="submit" class="form-btn">
+                                Отправить
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div> 
     <!-- Pop up конец -->
+
+    <script>
+        const links = document.querySelectorAll(".scroll");
+
+        for (const link of links) 
+        {
+            link.addEventListener("click", clickHandler);
+        }
+
+        function clickHandler(e) 
+        {
+            e.preventDefault();
+            const href = this.getAttribute("href");
+
+            document.querySelector(href).scrollIntoView({behavior: "smooth"});
+        }
+
+        function openModal() 
+        {
+            document.getElementById("modal").style.top = "0px";
+        }
+
+        function closeModal() 
+        {
+            document.getElementById("modal").style.top = "-460px";
+        }
+        
+        function openPopup() 
+        {
+            document.getElementById("background").style.top = "0px"
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closePopup() 
+        {
+            document.getElementById("background").style.top = "-2000px";
+            document.body.style.overflow = '';
+        }
+        
+    </script>
 </body>
 </html>
