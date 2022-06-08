@@ -174,7 +174,7 @@ h3 {
     z-index: 100;
     @media(max-width: $r_desk_1140) {
         padding-top: calc(20px + 20*(100vw - 360px)/780);
-        padding-bottom: calc(20px + 20*(100vw - 360px)/780);
+        padding-bottom: calc(4px + 20*(100vw - 360px)/780);
     }
 
     &__nav {
@@ -1698,7 +1698,7 @@ input[type="checkbox"]{
     padding: 30px 10px 20px 10px;
     box-sizing: border-box;
     height: 460px;
-    z-index: 99;
+    z-index: 101;
     display: none;
     @media(max-width: $r_tab) {
         display: block;
