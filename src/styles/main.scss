@@ -111,7 +111,7 @@ h3 {
         margin: 0;
         line-height: 150%;
         @media(max-width: $r_desk_1140) {
-            font-size: calc(16px + 12*(100vw - 360px)/780);
+            font-size: calc(15px + 12*(100vw - 360px)/780);
         }
     }
     &__size-l {
@@ -171,7 +171,7 @@ h3 {
     width: 100%;
     top: 0;
     background-color: #EEEEEE;
-    z-index: 100;
+    z-index: 3;
     @media(max-width: $r_desk_1140) {
         padding-top: calc(20px + 20*(100vw - 360px)/780);
         padding-bottom: calc(4px + 20*(100vw - 360px)/780);
@@ -636,6 +636,10 @@ h3 {
             @media(max-width: $r_desk_1140) {
                 margin-bottom: calc(15px + 5*(100vw - 360px)/780);
             }
+        }
+
+        &-description-s {
+            font-size: calc(10px + 4 * (100vw - 360px) / 780);
         }
 
         &-item1 {
@@ -1349,7 +1353,7 @@ h3 {
         overflow: hidden;
         max-height: 0;
         opacity: 0;
-        z-index: 99;
+        z-index: 3;
         
         .item-drop {
             list-style: none;
@@ -1388,7 +1392,7 @@ h3 {
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: 9;
+    z-index: 2;
     transform: translate(100%,0);
     pointer-events: none;
 }
@@ -1405,7 +1409,7 @@ input[type="checkbox"]{
         }
 
         ~.control{       
-            z-index: 99;
+            z-index: 3;
             box-shadow: 0 0 0 2px rgba(1, 1, 1, .05);
             &:after{transform: rotate(180deg);}
         }
@@ -1618,6 +1622,7 @@ input[type="checkbox"]{
     max-width: 600px;
     margin: 110px auto;
     position: relative;
+    z-index: 10;
     @media(max-width: $r_mob_700) {
         max-width: 430px;
     }
@@ -1681,7 +1686,7 @@ input[type="checkbox"]{
         position: absolute;
         right: 15px;
         top: 15px;
-        z-index: 2;
+        z-index: 3;
     }
 }
 
@@ -1698,7 +1703,7 @@ input[type="checkbox"]{
     padding: 30px 10px 20px 10px;
     box-sizing: border-box;
     height: 460px;
-    z-index: 101;
+    z-index: 10;
     display: none;
     @media(max-width: $r_tab) {
         display: block;
