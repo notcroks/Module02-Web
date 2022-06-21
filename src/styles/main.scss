@@ -681,8 +681,9 @@ h3 {
     }
 
     &__flex {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        justify-items: start;
+        grid-template-columns: repeat(2, 1fr);
         align-items: center;
         border-bottom: 2px solid #000001;
         padding-bottom: 35px;
@@ -706,17 +707,12 @@ h3 {
             width: 186px;
         }
         @media(max-width: $r_mob_400) {
-            min-width: 166px;
+            width: 166px;
         }
     }
 
     &__text {
-        @media(max-width: $r_tab_900) {
-            width: 300px;
-        }
-        @media(max-width: $r_mob_700) {
-            width: 160px;
-        }
+        max-width: 100%;
     }
 
     &__text-description-l {
@@ -909,6 +905,7 @@ h3 {
     }
 
     &__knowledge {
+        position: relative;
         border: 1px solid rgba(0,0,1,.3);
         width: auto;
         height: 148px;
@@ -944,7 +941,6 @@ h3 {
     }
 
     &__tooltip {
-        position: relative;
         display: inline-block;
 
         &-text {
@@ -956,9 +952,10 @@ h3 {
             padding: 5px 0;
             position: absolute;
             z-index: 1;
-            top: 113%;
+            top: 90%;
             left: 0;
-            margin-left: -60px;
+            right: 0;
+            margin: 0 auto;
             font-weight: 500;
             font-size: 1rem;
             line-height: 150%;
@@ -1124,7 +1121,14 @@ h3 {
         }
 
         &-project {
+            display: flex;
             text-align: left;
+            align-items: center;
+        }
+
+        &-cash {
+            display: flex;
+            align-items: center;
         }
     }
     
@@ -1357,30 +1361,28 @@ h3 {
         
         .item-drop {
             list-style: none;
-
-            a {        
-                display: block;
-                color: rgba(1, 1, 1, .4);
-                text-decoration: none;
-                padding: 1rem;
-                transition: all .3s ease;
-                font-size: 1.2rem;
-                font-weight: 400;
-                line-height: 150%;
-                text-align: left;
-                padding-left: 22px;
-                @media(max-width: $r_desk_1140) {
-                    font-size: calc(10px + 2*(100vw - 360px)/780);
-                }
-                @media (hover: hover) {
-                    &:hover{
-                        color: rgba(1, 1, 1);
-                    }          
-                }
-                &:nth-child(1) {
-                    padding-top: 0;
-                }
+            display: block;
+            color: rgba(1, 1, 1, .4);
+            text-decoration: none;
+            padding: 0.7rem;
+            transition: all .3s ease;
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 150%;
+            text-align: left;
+            padding-left: 22px;
+            @media(max-width: $r_desk_1140) {
+                font-size: calc(10px + 2*(100vw - 360px)/780);
             }
+            @media (hover: hover) {
+                &:hover{
+                    color: rgba(1, 1, 1);
+                }          
+            }
+            &:nth-child(1) {
+                padding-top: 0;
+            }
+            
         }
       
     }
