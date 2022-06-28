@@ -33,9 +33,6 @@ html {
     flex-direction: column;
     overflow: hidden;
     // Для слайдеров
-    > * {
-        min-width: 0;
-    }
 }
 
 body {
@@ -987,11 +984,11 @@ h3 {
                 filter: grayscale(1); 
         opacity: .5;
         transition: .3s;
-        @media(max-width: $r_tab_900) {
+        /*@media(max-width: $r_tab_900) {
             -webkit-filter: grayscale(0);
                     filter: grayscale(0);
             opacity: 1;
-        }
+        }*/
 
         &-html {
             width: 77px;
@@ -1134,6 +1131,7 @@ h3 {
     
     &__website {
         padding-top: 6rem;
+        padding-bottom: 6rem;
         border-top: 2px solid #000001;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1142,7 +1140,12 @@ h3 {
         gap: 7.5rem 20rem;
         @media(max-width: $r_desk_1140) {
             padding-top: calc(40px + 20*(100vw - 360px)/780);
+            padding-bottom: calc(40px + 20*(100vw - 360px)/780);
             gap: calc(15px + 60*(100vw - 360px)/780) calc(35px + 165*(100vw - 360px)/780);
+        }
+
+        &-3 {
+            border-bottom: 2px solid #000001;
         }
     }
 
@@ -1164,9 +1167,9 @@ h3 {
 }
 
 .feedback {
-    margin-top: 16.5rem;
+    margin-top: 11rem;
     @media(max-width: $r_desk_1140) {
-        margin-top: calc(80px + 85*(100vw - 360px)/780);
+        margin-top: calc(80px + 30*(100vw - 360px)/780);
     }
 
     &__head {
@@ -1695,7 +1698,7 @@ input[type="checkbox"]{
 .modal {
     max-width: 100%;
     background-color: #EEEEEE;
-    position: absolute;
+    position: fixed;
     text-align: center;
     left: 0;
     right: 0;

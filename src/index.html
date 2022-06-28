@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/images/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>Web-разработка</title>
 </head>
 <body>
@@ -14,19 +18,19 @@
                     <nav class="header__navigation">
                         <ul class="header__nav">
                             <li class="header__item">
-                                <a href="#" class="header__link">Обо мне</a>
+                                <a href="#info" class="header__link">Обо мне</a>
                             </li>
                             <li class="header__item">
-                                <a href="#" class="header__link">Портфолио</a>
+                                <a href="#portfolio" class="header__link">Портфолио</a>
                             </li>
                             <li class="header__item">
-                                <a href="#" class="header__link">Этапы работ</a>
+                                <a href="#development" class="header__link">Этапы работ</a>
                             </li>
                             <li class="header__item">
-                                <a href="#" class="header__link">Цены</a>
+                                <a href="#price" class="header__link">Цены</a>
                             </li>
                             <li class="header__item">
-                                <a href="#" class="header__link">Обратная связь</a>
+                                <a href="#feedback" class="header__link">Обратная связь</a>
                             </li>
                         </ul>
                     </nav>
@@ -90,7 +94,7 @@
                 </div>
             </div>
         </div>
-        <section class="info">
+        <section class="info" id="info">
             <div class="container">
                 <div class="info__grid">
                     <div class="info__grid-item info__grid-item1">
@@ -127,7 +131,7 @@
                 </div>
             </div>
         </section>
-        <section class="development">
+        <section class="development" id="development">
             <div class="container">
                 <div class="development__flex">
                     <h3 class="title development__title1">
@@ -156,7 +160,7 @@
                         <p class="description description__size-l development__text-description-l">Верстаю сайт по вашему проекту пиксель в пиксель</p>
                     </div>
                 </div>
-                <h1 class="title title__block development__title">Портфолио</h1>
+                <h1 class="title title__block development__title" id="portfolio">Портфолио</h1>
                 <img class="figure__circle3" src="images/circle.svg" alt="">
             </div>
         </section>
@@ -379,7 +383,7 @@
                 </div>
             </div>
         </main>
-        <section class="price">
+        <section class="price" id="price">
             <div class="container">
                 <div class="price__head">
                     <h2 class="title price__head-title">
@@ -468,7 +472,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="price__website">
+                    <div class="price__website price__website-3">
                         <div class="price__services-title">
                             <h3 class="title price__services_title">
                                 Разработка <br> интернет - магазина
@@ -510,7 +514,7 @@
                 </div>
             </div>
         </section>
-        <section class="feedback">
+        <section class="feedback" id="feedback">
             <div class="container">
                 <div class="feedback__head">
                     <h2 class="title feedback__head-title">
@@ -568,19 +572,19 @@
                 <div class="footer__box">
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <a href="#" class="footer__link">Обо мне</a>
+                            <a href="#info" class="footer__link">Обо мне</a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link">Портфолио</a>
+                            <a href="#portfolio" class="footer__link">Портфолио</a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link">Этапы работ</a>
+                            <a href="#development" class="footer__link">Этапы работ</a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link">Цены</a>
+                            <a href="#price" class="footer__link">Цены</a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link">Обратная связь</a>
+                            <a href="#feedback" class="footer__link">Обратная связь</a>
                         </li>
                     </ul>
                     <div class="footer__info">
@@ -607,19 +611,19 @@
     <div class="modal" id="modal">
         <ul class="header__nav modal__list">
             <li class="header__item modal__item">
-                <a class="header__link link scroll modal__link" href="#about">Обо мне</a>
+                <a class="header__link link scroll modal__link" href="#info">Обо мне</a>
             </li>
             <li class="header__item modal__item">
                 <a class="header__link link scroll modal__link" href="#portfolio">Портфолио</a>
             </li>
             <li class="header__item modal__item">
-                <a class="header__link link scroll modal__link" href="#stage">Этапы работ</a>
+                <a class="header__link link scroll modal__link" href="#development">Этапы работ</a>
             </li>
             <li class="header__item modal__item">
                 <a class="header__link link scroll modal__link" href="#price">Цены</a>
             </li>
             <li class="header__item modal__item">
-                <a class="header__link link scroll modal__link" href="#form">Обратная связь</a>
+                <a class="header__link link scroll modal__link" href="#feedback">Обратная связь</a>
             </li>
         </ul>
         <div class="modal__info">
