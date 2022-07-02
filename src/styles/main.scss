@@ -922,7 +922,6 @@ h3 {
                 -webkit-filter: grayscale(0);
                         filter: grayscale(0);
                 opacity: 1;
-                transform: scale(1.1);
                 @media(max-width: $r_tab_900) {
                     transform: scale(1);
                 }
@@ -993,65 +992,161 @@ h3 {
         &-html {
             width: 77px;
             height: 84px;
-            @media(max-width: $r_desk_1140) {
+            /*@media(max-width: $r_desk_1140) {
                 width: calc(23px + 54*(100vw - 360px)/780);
                 height: calc(25px + 59*(100vw - 360px)/780);
+            }*/
+            @media(max-width: $r_tab) {
+                width: 54px;
+                height: 61px;
+            }
+            @media(max-width: $r_mob_600) {
+                width: 34px;
+                height: 36px;
+            }
+            @media(max-width: $r_mob_400) {
+                width: 24px;
+                height: 25px;
             }
         }
         &-css {
             width: 76px;
             height: 82px;
-            @media(max-width: $r_desk_1140) {
+            /*@media(max-width: $r_desk_1140) {
                 width: calc(23px + 53*(100vw - 360px)/780);
                 height: calc(25px + 57*(100vw - 360px)/780);
+            }*/
+            @media(max-width: $r_tab) {
+                width: 54px;
+                height: 61px;
+            }
+            @media(max-width: $r_mob_600) {
+                width: 34px;
+                height: 36px;
+            }
+            @media(max-width: $r_mob_400) {
+                width: 24px;
+                height: 25px;
             }
         }
         &-js {
             width: 71px;
             height: 77px;
-            @media(max-width: $r_desk_1140) {
+            /*@media(max-width: $r_desk_1140) {
                 width: calc(22px + 49*(100vw - 360px)/780);
                 height: calc(23px + 54*(100vw - 360px)/780);
+            }*/
+            @media(max-width: $r_tab) {
+                width: 52px;
+                height: 57px;
+            }
+            @media(max-width: $r_mob_600) {
+                width: 34px;
+                height: 35px;
+            }
+            @media(max-width: $r_mob_400) {
+                width: 24px;
+                height: 25px;
             }
         }
         &-jq {
             width: 76px;
             height: 82px;
-            @media(max-width: $r_desk_1140) {
+            /*@media(max-width: $r_desk_1140) {
                 width: calc(23px + 53*(100vw - 360px)/780);
                 height: calc(24px + 58*(100vw - 360px)/780);
+            }*/
+            @media(max-width: $r_tab) {
+                width: 56px;
+                height: 62px;
+            }
+            @media(max-width: $r_mob_600) {
+                width: 34px;
+                height: 38px;
+            }
+            @media(max-width: $r_mob_400) {
+                width: 24px;
+                height: 25px;
             }
         }
         &-bt {
             width: 71px;
             height: 71px;
-            @media(max-width: $r_desk_1140) {
+            /*@media(max-width: $r_desk_1140) {
                 width: calc(21px + 50*(100vw - 360px)/780);
                 height: calc(21px + 50*(100vw - 360px)/780);
+            }*/
+            @media(max-width: $r_tab) {
+                width: 51px;
+                height: 51px;
+            }
+            @media(max-width: $r_mob_600) {
+                width: 34px;
+                height: 34px;
+            }
+            @media(max-width: $r_mob_400) {
+                width: 25px;
+                height: 25px;
             }
         }
         &-php {
             width: 105px;
             height: 55px;
-            @media(max-width: $r_desk_1140) {
+            /*@media(max-width: $r_desk_1140) {
                 width: calc(36px + 69*(100vw - 360px)/780);
                 height: calc(17px + 38*(100vw - 360px)/780);
+            }*/
+            @media(max-width: $r_tab) {
+                width: 85px;
+                height: 35px;
+            }
+            @media(max-width: $r_mob_600) {
+                width: 54px;
+                height: 26px;
+            }
+            @media(max-width: $r_mob_400) {
+                width: 32px;
+                height: 17px;
             }
         }
         &-vjs {
             width: 81px;
             height: 70px;
-            @media(max-width: $r_desk_1140) {
+            /*@media(max-width: $r_desk_1140) {
                 width: calc(25px + 56*(100vw - 360px)/780);
                 height: calc(21px + 49*(100vw - 360px)/780);
+            }*/
+            @media(max-width: $r_tab) {
+                width: 61px;
+                height: 50px;
+            }
+            @media(max-width: $r_mob_600) {
+                width: 38px;
+                height: 34px;
+            }
+            @media(max-width: $r_mob_400) {
+                width: 25px;
+                height: 21px;
             }
         }
         &-wp {
             width: 74px;
             height: 74px;
-            @media(max-width: $r_desk_1140) {
+            /*@media(max-width: $r_desk_1140) {
                 width: calc(22px + 52*(100vw - 360px)/780);
                 height: calc(22px + 52*(100vw - 360px)/780);
+            }*/
+            @media(max-width: $r_tab) {
+                width: 51px;
+                height: 51px;
+            }
+            @media(max-width: $r_mob_600) {
+                width: 34px;
+                height: 34px;
+            }
+            @media(max-width: $r_mob_400) {
+                width: 22px;
+                height: 22px;
             }
         }
     }
